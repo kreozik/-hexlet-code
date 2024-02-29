@@ -1,4 +1,6 @@
 #!/usr/bin/env node
-console.log('Choose the game!')
+import userName from '../src/cli.js';
 
-// console.log(`Hello, ${userName}!`);
+console.log(`Hello, ${userName}!`);
+
+console.log('Choose the game!');

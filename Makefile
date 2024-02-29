@@ -6,4 +6,10 @@ publish:
 
 
 menu-game:	
-	node bin/menu-game.js	
+	node bin/menu-game.js
+
+lint:
+	npx eslint	.
+
+lint-fix:
+	npx eslint --fix .	
