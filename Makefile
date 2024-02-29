@@ -13,3 +13,9 @@ lint:
 
 lint-fix:
 	npx eslint --fix .	
+
+scm:
+	node bin/brain-scm.js
+
+gprogression:
+	node bin/brain-progression.js		
